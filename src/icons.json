@@ -1,0 +1,100 @@
+[
+    {
+      "title": "Airplane Mode",
+      "key": "airplane",
+      "status": {
+        "true": "On",
+        "false": "Off"
+      },
+      "styles": {
+        "active": "bg-[#e88102]",
+        "inactive": "bg-[#3f3f3f]"
+      }
+    },
+    {
+      "title": "Airdrop",
+      "key": "airdrop",
+      "status": {
+        "true": "Everyone",
+        "false": "Receiving Off"
+      },
+      "styles": {
+        "active": "bg-[#0567f0]",
+        "inactive": "bg-[#3f3f3f]"
+      },
+      "iconPath": "static/images/airdrop.png",
+      "arrows": {
+        "up": "IoIosArrowUp",
+        "down": "IoIosArrowDown"
+      }
+    },
+    {
+      "title": "Wi-Fi",
+      "key": "wifi",
+      "status": {
+        "true": "On",
+        "false": "Off"
+      },
+      "styles": {
+        "active": "bg-[#0567f0]",
+        "inactive": "bg-[#3f3f3f]"
+      },
+      "arrows": {
+        "up": "IoIosArrowUp",
+        "down": "IoIosArrowDown"
+      }
+    },
+    {
+      "title": "Mobile Data",
+      "key": "signal",
+      "status": {
+        "true": "On",
+        "false": "Off"
+      },
+      "styles": {
+        "active": "bg-[#22c925]",
+        "inactive": "bg-[#3f3f3f]"
+      }
+    },
+    {
+      "title": "Bluetooth",
+      "key": "bluetooth",
+      "status": {
+        "true": "On",
+        "false": "Off"
+      },
+      "styles": {
+        "active": "bg-[#0567f0]",
+        "inactive": "bg-[#3f3f3f]"
+      },
+      "arrows": {
+        "up": "IoIosArrowUp",
+        "down": "IoIosArrowDown"
+      }
+    },
+    {
+      "title": "Personal Hotspot",
+      "key": "link",
+      "status": {
+        "true": "On",
+        "false": "Off"
+      },
+      "styles": {
+        "active": "bg-[#0567f0]",
+        "inactive": "bg-[#3f3f3f]"
+      }
+    },
+    {
+      "title": "VPN",
+      "key": "vpn",
+      "status": {
+        "true": "On",
+        "false": "Off"
+      },
+      "styles": {
+        "active": "bg-[#0567f0]",
+        "inactive": "bg-[#3f3f3f]"
+      }
+    }
+  ]
+  
