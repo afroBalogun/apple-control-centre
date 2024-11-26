@@ -7,6 +7,15 @@ import Brightness from "./Components/Brightness";
 import Volume from "./Components/Volume";
 import FlashLight from "./Components/FlashLight";
 import Timer from "./Components/Timer";
+import Focus from "./Components/Focus";
+import OSF from "./Components/OSF";
+import Calculator from "./Components/Calculator";
+import PowerSaver from "./Components/PowerSaver";
+import Camera from "./Components/Camera";
+import ScreenRecord from "./Components/ScreenRecord";
+import Shazam from "./Components/Shazam";
+import QRCodeSCanner from "./Components/QRCodeScanner";
+import Notes from "./Components/Notes";
 
 export default function ControlPanel(){
     return(
@@ -18,18 +27,33 @@ export default function ControlPanel(){
             {/* Music & Airplay */}
             <MusicAndAirplay/>
 
-            {/* Orientation */}
-            <Orientation/>
-
-            <ScreenMirroring/>
+            {/* Orientation, Screen Mirroring, Brightness*/}
+            <OSF/>
 
             <Brightness/>
 
             <Volume />
 
+
             <FlashLight/>
 
             <Timer/>
+           
+            <Calculator/>
+
+            <Camera/>
+
+            <PowerSaver/>
+
+            <ScreenRecord/>
+
+            <Shazam/>
+
+            <QRCodeSCanner/>
+
+            <Notes/>
+
+
         </div>
     )
 }

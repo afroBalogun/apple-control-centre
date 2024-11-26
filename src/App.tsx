@@ -10,7 +10,7 @@ export default function App(){
             </div>
   
             {/* Content */}
-            <div className=" z-10 w-[400px] ">
+            <div className=" z-10 w-[400px]">
                 <ControlPanel />
             </div>
         </div>

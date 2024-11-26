@@ -193,7 +193,7 @@ export default function IconsModal(){
          
             <div className={`h-full absolute w-full top-0 ${isExpanded? "left-0" : ""}  p-4 flex items-center justify-center `}>
                 {/* Blurred Background */}
-                <div className="absolute top-0 left-0 float-left inset-0 blur-sm z-10 bg-transparent w-screen h-screen bg-[#252525] "
+                <div className="absolute top-0 left-0 float-left inset-0 blur-sm z-10 w-screen h-screen bg-[#252525] "
                     onClick={() => handleIsExpanded()}
                 >
                 </div>

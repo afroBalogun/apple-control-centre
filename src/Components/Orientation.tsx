@@ -16,15 +16,15 @@ export default function Orientation(){
       };
 
     return(
-        <div className=" " onClick={() => {handleClick("orientation")}}>
+        <div className="" onClick={() => {handleClick("orientation")}}>
             {
                 clickedIcons.orientation ? 
-                    <GiPadlock size={60} className="bg-white text-red-700 p-6 rounded-full "/>
+                    <GiPadlock size={60} className="bg-white text-red-700 p-6 rounded-full cursor-pointer "/>
                 :  
-                    <GiPadlockOpen size={60} className="bg-zinc-900 text-white p-6 rounded-full "/>
+                    <GiPadlockOpen size={60} className="bg-zinc-900 text-white p-6 rounded-full cursor-pointer"/>
 
             }
-            <FaArrowRotateRight size={45} className="relative -top-[50%] left-[8px] p-[2px] text-[#3f3f3f] cursor-pointer"/>
+            {/* <FaArrowRotateRight size={45} className="absolute top-[35.3%] left-[24.6%] p-[2px] text-[#3f3f3f] z-50 cursor-pointer"/> */}
             {/* <FontAwesomeIcon icon={faArrowRotateRight} className="relative -top-[68%] left-[14px] font-thin p-[2px] text-3xl text-blue-300 cursor-pointer" /> */}
         </div>
     )

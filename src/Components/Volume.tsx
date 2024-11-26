@@ -8,7 +8,7 @@ export default function Volume(){
     const clickedIcons = useAppSelector(selectClickedIcons);
 
     return(
-        <div className="brightness row-span-2">
+        <div className="brightness  ">
             <div className="p-2 h-full w-4/5 rounded-3xl bg-zinc-900 cursor-pointer flex justify-center items-end">
                 <FaVolumeUp  size={40} className="p-3 bg-zinc-900 cursor-pointer"/>
             </div>

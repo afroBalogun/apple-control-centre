@@ -1,9 +1,9 @@
 import React from "react"
 import { useAppDispatch, useAppSelector } from '../redux/hooks'; 
 import { toggleIcon, selectClickedIcons } from '../redux/clickedIconsSlice';
-import { IoIosFlashlight } from "react-icons/io";
+import { BsQrCodeScan } from "react-icons/bs";
 
-export default function FlashLight(){
+export default function QRCodeSCanner(){
     const dispatch = useAppDispatch();
     const clickedIcons = useAppSelector(selectClickedIcons);
 
@@ -12,8 +12,8 @@ export default function FlashLight(){
       };
 
     return(
-        <div className="flashlight" onClick={() => {handleClick("flashLight")}}>
-            <IoIosFlashlight  size={60} className={`p-4 ${clickedIcons.flashLight ? "text-[#6b47e2] rounded-full bg-white" : "text-[#ffffff] rounded-full bg-zinc-900"} cursor-pointer`}/>
+        <div className="qr-scanner" onClick={() => {handleClick("QRCodeScanner")}}>
+            <BsQrCodeScan size={60} className={`p-4 ${clickedIcons.QRCodeScanner ? " rounded-full bg-[#857b7b]" : "text-[#ffffff] rounded-full bg-zinc-900"} cursor-pointer`}/>
         </div>
     )
 }

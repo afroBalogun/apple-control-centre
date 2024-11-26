@@ -9,7 +9,19 @@ interface ClickedIconsState {
   link: boolean;
   vpn: boolean;
   airplay: boolean,
-  orientation: boolean
+  orientation: boolean;
+  screenMirroring: boolean;
+  focus: boolean;
+  flashLight: boolean;
+  timer: boolean;
+  calculator: boolean;
+  camera: boolean;
+  powerSaver: boolean;
+  screenRecord: boolean;
+  Shazam: boolean;
+  QRCodeScanner: boolean;
+  notes: boolean;
+
 }
 
 const initialState: ClickedIconsState = {
@@ -21,8 +33,18 @@ const initialState: ClickedIconsState = {
   link: false,
   vpn: false,
   airplay: false,
-  orientation: false
-
+  orientation: false,
+  screenMirroring: false,
+  focus: false,
+  flashLight: false,
+  timer: false,
+  calculator: false,
+  camera: false,
+  powerSaver: false,
+  screenRecord: false,
+  Shazam: false,
+  QRCodeScanner: false,
+  notes: false,
 };
 
 const clickedIconsSlice = createSlice({
